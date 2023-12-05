@@ -1,0 +1,45 @@
+.header {
+  background-image: url(../../assets/img/widescreen-background-vector.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px;
+  color:blue;
+  position: relative;
+}
+
+@keyframes escribir {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 10rem;
+  }
+}
+
+@keyframes titilar {
+  0%, 50%, 100% {
+    background-color: blue;
+    color: white;
+  }
+  25%, 75% {
+    background-color: white;
+    color: blue;
+  }
+}
+
+.logo {
+  width: 10rem; 
+  overflow: hidden;
+  white-space: nowrap;
+  animation: escribir 2s steps(20, end), titilar 5s linear infinite;
+  padding: 1rem; 
+  border-radius: 1rem; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.titulo5 {
+  font-size: 3rem;
+  font-weight: bold;
+}

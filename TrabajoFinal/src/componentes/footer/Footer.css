@@ -1,0 +1,30 @@
+.footer {
+    background-color: #343434;
+    color: #fff;
+    text-align: center;
+    padding: 0 auto;
+    margin-top: 2rem;
+    width: 100%;
+   
+}
+
+button {
+    background-color: #001f3f;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #343434;
+}
+
+button:not(:hover) {
+    background-color: #343434;
+}
+

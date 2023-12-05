@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  .col-md-4 {
+    width: 33.3333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+}
+.cajaExpertise {
+  background: #00aaff;
+  color: #fff;
+  box-shadow: 0px 20px 10px rgba(0, 170, 255, 0.5);
+  text-align: justify;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+.titulo {
+  text-align: center;
+}
+
+
+.descripcion {
+  margin: 2rem;
+}
+
+
+.cajaExpertise:hover {
+  transform: scale(1.1);
+}
