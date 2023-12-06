@@ -1,0 +1,23 @@
+.servicios-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .servicio {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .servicio h3 {
+    color: #007bff;
+  }
+  
+  .servicio p {
+    color: #333;
+    margin-top: 10px;
+  }
+  

@@ -19,15 +19,10 @@ const Navbar = () => {
             <ul className="nav-list">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
+                <li><Link to="/servicios">Servicios</Link></li>
                 <li className="dropdown" onClick={toggleDropdown}>
-                    Services
-                    {isDropdownOpen && (
-                        <ul className="dropdown-content">
-                            <li>FrontEnd</li>
-                            <li>BackEnd</li>
-                            <li>Full</li>
-                        </ul>
-                    )}
+                 
+                   
                 </li>
                 <li onClick={handleContactClick}>Contact</li>
             </ul>
